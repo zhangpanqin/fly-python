@@ -34,6 +34,103 @@ print(d1 & d2)
 print(d1 ^ d2)
 ```
 
+### if
+
+```python
+if 1 > 0:
+    print('aaa')
+elif 2 > 0:
+    print('ccc')
+else:
+    print('bbb')
+```
+
+### while
+
+```python
+a = 10
+while a > 0:
+    print('aaaa')
+    a = -1
+print('ccc')
+
+```
+
+### for
+
+```python
+string = '123456'
+for a in string:
+    print(a)
+
+list = [1, 2, 3, 4]
+for a in list:
+    print(2)
+
+arr = (1, 2, 3, 4)
+
+for a in arr:
+    print(a)
+
+map = {'a': 1, 'b': 2}
+
+for it in map:
+    # 遍历 key
+    print(it)
+
+set2 = {'a', "b"}
+for it in set2:
+    print(it)
+
+```
+
+### 函数
+
+```python
+def demo(a, b='默认'):
+    print('a=', a)
+    print('b=', b)
+
+
+demo('11', 'a')
+demo(b='a', a='11')
+
+
+# 可变参数
+def demo2(*args):
+    # 元组
+    print(type(args))
+
+
+def demo4(**kwargs):
+    # 字典,map
+    print(type(kwargs))
+    print(kwargs)
+
+
+# 必须带着变量
+demo4(a=1, b=2)
+```
+
+### 作用域
+
+参考 js 的作用域
+
+```python
+x = 2
+
+
+def demo2():
+    x = 10
+    print(x)
+
+
+# 打印 10
+demo2()
+# 打印 2
+print(x)
+```
+
 ### 包安装
 
 ```shell
