@@ -177,6 +177,18 @@ print(someone.birthday)
 
 ```
 
+### import
+```python
+import sys
+
+# 从当前目录和 sys.path 导包
+from package.demo.fileutil import test
+
+print(sys.path)
+
+test()
+```
+
 ### 包安装
 
 ```shell
