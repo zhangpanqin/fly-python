@@ -131,8 +131,8 @@ demo2()
 print(x)
 ```
 
-
 ### class
+
 ```python
 class People:
     # 类比构造函数
@@ -178,6 +178,7 @@ print(someone.birthday)
 ```
 
 ### import
+
 ```python
 import sys
 
@@ -187,6 +188,14 @@ from package.demo.fileutil import test
 print(sys.path)
 
 test()
+```
+
+### io
+
+```python
+f = open('../../a.txt')
+print(f.read())
+f.close()
 ```
 
 ### 包安装
