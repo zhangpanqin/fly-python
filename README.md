@@ -1,3 +1,15 @@
+### 好玩的东东
+
+```python
+# 下载视频
+pip3 install you-get
+you-get https://www.bilibili.com/video/BV1fV411H7Vt
+```
+
+
+
+
+
 ## 基础
 
 ### 列表和元组
