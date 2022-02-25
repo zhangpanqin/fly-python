@@ -210,10 +210,56 @@ print(f.read())
 f.close()
 ```
 
-### 包安装
+## 包安装
 
 ```shell
 pip3 install requests
 ```
+
+
+
+## 虚拟环境
+
+```shell
+brew install anaconda
+echo 'export PATH="/usr/local/anaconda3/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+# 虚拟环境
+conda env list
+
+# 切换环境
+conda activate <env_name>
+
+# 创建虚拟环境 conda create --name <env_name> <package_names>
+conda create -n python3.9.7 python=3.9.7
+
+# 在当前虚拟环境安装包
+conda install <package_name>
+```
+
+
+
+
+
+
+
+
+
+## 程序打包
+
+```shell
+pip3 install py2app
+
+# py2applet --make-setup <app.py>,生成 setup.py 文件
+py2applet --make-setup main.py
+
+# 打包
+python setup.py py2app
+```
+
+
+
+
 
 ### 爬虫
