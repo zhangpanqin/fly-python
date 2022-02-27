@@ -262,4 +262,20 @@ python setup.py py2app
 
 
 
-### 爬虫
+## 爬虫
+
+```shell
+# html 解析
+pip3 install beautifulsoup4
+
+# 页面自动化
+# 代码操控谷歌浏览器
+# http://chromedriver.storage.googleapis.com/index.html ，下载安装
+# https://selenium-python-zh.readthedocs.io/en/latest/index.html
+pip3 install selenium
+
+# Scrapy 爬虫框架
+
+pip3 install scrapy
+```
+
